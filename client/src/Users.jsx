@@ -27,9 +27,9 @@ function Users () {
                         {
                             users.map((user) => {
                                 return <tr>
-                                    <td>{user.Name}</td>
-                                    <td>{user.Email}</td>
-                                    <td>{user.Age}</td>
+                                    <td>{user.name}</td>
+                                    <td>{user.email}</td>
+                                    <td>{user.age}</td>
                                     <td>
                                         <Link to='/update' className='btn btn-success'>Update</Link>
                                         <button className='btn btn-danger'>Delete</button>
